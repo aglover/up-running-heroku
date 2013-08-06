@@ -91,8 +91,33 @@ Next, clone the sample Node app from Github:
 $> git clone git@github.com:aglover/whiskered-robot.git
 ```
 
+You will need to change directories into the `whiskered-robot` directory.
 
+##### Install dependencies
 
+From within the `whiskered-robot` directory, type:
+
+```
+$> npm install
+```
+
+This command downloads and installs a series of libraries that the sample Node app depends on. 
+
+##### Start the application locally
+
+Next, you can see the app running locally by typing:
+
+```
+$> foreman start
+```
+
+Foreman runs processes as defined in a `Profile`. For example, if you take a look at the `Profile` defined in the project, it looks like this:
+
+```
+web: coffee App.coffee
+```
+
+Which tells node to run a web process with the `coffee` command. For now, don't worry much about what that `coffee` command is! 
 
 ### Lab #3
 
