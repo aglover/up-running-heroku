@@ -18,6 +18,13 @@ Keep in mind, at least one person will need access to email as creating an accou
 
 In Lab #1, you'll be setting up your environment so you can work with Heroku. Environment setup is easily done; all you need to do is first [sign up for a free account](https://id.heroku.com/signup). Once you've done that, you'll need to download [Heroku's Toolbelt](https://toolbelt.heroku.com/).  
 
+Heroku Toolbelt gives you a few things:
+
+ * Heroku client - CLI tool for creating and managing Heroku apps
+ * Foreman - an easy option for running your apps locally
+ * Git - revision control and pushing to Heroku
+
+
 Once those two steps are complete, you'll next need to fire up a terminal. The Heroku Toolbelt installs a nifty command line client dubbed `heroku` that you'll use quite a bit when working with Heroku. 
 
 With a terminal fired up, type:
@@ -41,6 +48,8 @@ You can optionally provide a name to your app as well:
 ```
 $> heroku create your_name
 ```
+
+With that, you are done! You can now deploy your next killer app to the cloud using Git! 
 
 ### Lab #2
 
