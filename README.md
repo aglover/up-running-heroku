@@ -14,7 +14,31 @@ This workshop is organized into 3 labs. We don't have a lot of time, so I strong
 
 ### Lab #1
 
- 
+In Lab #1, you'll be setting up your environment so you can work with Heroku. Environment setup is easily done; all you need to do is first [sign up for a free account](https://id.heroku.com/signup). Once you've done that, you'll need to download [Heroku's Toolbelt](https://toolbelt.heroku.com/).  
+
+Once those two steps are complete, you'll next need to fire up a terminal. The Heroku Toolbelt installs a nifty command line client dubbed `heroku` that you'll use quite a bit when working with Heroku. 
+
+With a terminal fired up, type:
+
+```
+$> heroku login
+```
+
+And follow the prompts -- you'll need to use your email address and password that you configured when you signed up for the service. Don't forget to allow this operation to create you an SSH key as Heroku deployments leverage Git, which uses SSH for data transfer.
+
+Next, you'll use the `heroku` command to create an app -- keep in mind that this command merely creates a place holder for a legitimate app. That is, creating a Heroku app doesn't result in any code, just a place to _deploy_ your code. Accordingly, type:
+
+```
+$> heroku create
+```
+
+This will result in the creation of a placeholder for your app and it'll be randomly named. 
+
+You can optionally provide a name to your app as well:
+
+```
+$> heroku create your_name
+```
 
 ### Lab #2
 
