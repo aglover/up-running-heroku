@@ -1,6 +1,12 @@
-# 3-2-1 Android! 
+# Up and Running with Heroku
 
-Wanna build a native Android app, but aren't sure where to begin? No problem, I've got you covered! In this workshop, I'll get you up and running with a simple Android app and in the process you'll learn the basics of Android development. You'll learn how to define views and the activities behind them, how to implement gestures, icons, menus and more! You'll leave the session with enough Android development experience that'll enable you to create the next killer app! 
+
+[Heroku](http://www.heroku.com/) recently announced that 50% of all incoming web requests to their platform originate from a mobile app. And while Heroku will not publicly announce the number of applications hosted on their platform, without a doubt there are hundreds of thousands. 
+
+Clearly, Heroku is hub for mobile backends and anyone who's familiar with the platform isn't surprised. Application deployment on Heroku couldn't be easier; moreover, while its roots are firmly established in the [Ruby](http://www.ruby-lang.org/en/) community, Heroku supports a plethora of other language platforms like [Node.js](http://nodejs.org/), [Java](http://www.java.com/en/), [Python](http://www.python.org/), and more. 
+
+In this hands-on workshop, I'll show you how to get started with Heroku and I'll teach you everything you need to know for managing, monitoring, and supporting your Heroku app. You'll leave this session with a firm grasp of [Git](http://git-scm.com/), the Heroku platform, [Heroku's add-ons](https://addons.heroku.com/), and I'll go over some alternative options. 
+
 
 ## Let's get started! 
 
