@@ -105,6 +105,6 @@ $> heroku open
 
 You should see a nifty app! 
 
-![your app is live!](/docs/imgs/liveapp.png)
+![your app is live!](../../docs/imgs/liveapp.png)
 
 If you don't see the above app, raise your hand! 
