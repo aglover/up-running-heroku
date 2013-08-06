@@ -20,10 +20,9 @@ In Lab #1, you'll be setting up your environment so you can work with Heroku. En
 
 Heroku Toolbelt gives you a few things:
 
- * Heroku client - CLI tool for creating and managing Heroku apps
- * Foreman - an easy option for running your apps locally
+ * [Heroku client](https://github.com/heroku/heroku) (aka `heroku`) - CLI tool for creating and managing Heroku apps
+ * [Foreman](https://github.com/ddollar/foreman) - an easy option for running your apps locally
  * Git - revision control and pushing to Heroku
-
 
 Once those two steps are complete, you'll next need to fire up a terminal. The Heroku Toolbelt installs a nifty command line client dubbed `heroku` that you'll use quite a bit when working with Heroku. 
 
@@ -67,3 +66,6 @@ With that, you are done! You can now deploy your next killer app to the cloud us
   * [The Disco Blog Heroku entries](http://thediscoblog.com/blog/categories/heroku/)
   * [@heroku](https://twitter.com/heroku)
   * [Heroku Toolbelt](https://toolbelt.heroku.com/)
+  * Git:
+    * [Official Git tutorial](http://git-scm.com/docs/gittutorial)
+    * [vogella.com Git Tutorial](http://vogella.com/articles/Git/)
