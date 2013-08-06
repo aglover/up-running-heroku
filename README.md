@@ -54,6 +54,38 @@ With that, you are done! You can now deploy your next killer app to the cloud us
 
 In lab #2, you'll be [cloning](https://www.kernel.org/pub/software/scm/git/docs/git-clone.html) a [sample Node.js application](https://github.com/aglover/whiskered-robot) and deploying that app to Heroku.
 
+First and foremost, you'll need to install Node.js -- you can do this in [three steps](http://thediscoblog.com/blog/2013/03/12/node-in-3-commands/):
+
+Step 1: Download and install nvm.
+
+```
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+```
+
+Step 2: Reload your shell.
+
+```
+source .bash_profile
+```
+
+Step 2.5: Obtain a list of available node versions to install.
+
+```
+nvm ls-remote
+```
+
+Step 3: Install your desired version of node.
+
+```
+nvm install v0.10.0
+```
+
+Next, clone the sample Node app from Github:
+
+```
+$> git clone git@github.com:aglover/whiskered-robot.git
+```
+
 
 
 
