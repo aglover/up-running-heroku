@@ -21,10 +21,10 @@ In Lab #1, you'll be setting up your environment so you can work with Heroku. En
 Heroku Toolbelt gives you a few things:
 
  * [Heroku client](https://github.com/heroku/heroku) (aka `heroku`) - CLI tool for creating and managing Heroku apps
- * [Foreman](https://github.com/ddollar/foreman) - an easy option for running your apps locally
- * Git - revision control and pushing to Heroku
+ * [Foreman](https://github.com/ddollar/foreman) - running your apps locally
+ * [Git](http://git-scm.com/) - Heroku deployment
 
-Once those two steps are complete, you'll next need to fire up a terminal. The Heroku Toolbelt installs a nifty command line client dubbed `heroku` that you'll use quite a bit when working with Heroku. 
+Once you've created an account & downloaded Toolbelt, you'll next need to fire up a terminal. The Heroku Toolbelt installs a nifty command line client dubbed `heroku` that you'll use quite a bit when working with Heroku. 
 
 With a terminal fired up, type:
 
@@ -51,6 +51,9 @@ $> heroku create your_name
 With that, you are done! You can now deploy your next killer app to the cloud using Git! 
 
 ### Lab #2
+
+In lab #2, you'll be [cloning](https://www.kernel.org/pub/software/scm/git/docs/git-clone.html) a [sample Node.js application](https://github.com/aglover/whiskered-robot) and deploying that app to Heroku.
+
 
 
 
