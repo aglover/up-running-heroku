@@ -55,7 +55,7 @@ $> heroku ps
 web.1: up 2013/08/06 15:09:24 (~ 10m ago)
 ```
 
-You should see some basic information on your app -- in this case, you have 1 web dyno running your app. In Heroku, you get one dyno for free -- this dyno has 512MB of memory allocated to it. Heroku offers 1GB dynos as well, however, they are not free. 
+You should see some basic information on your app -- in this case, you have 1 web dyno running your app. In Heroku, you get one dyno for free -- this dyno has 512MB of memory allocated to it. Heroku [offers 1GB dynos](https://blog.heroku.com/archives/2013/4/5/2x-dynos-beta) as well, however, they are not free. 
 
 If you'd like to add more dynos (i.e. scale up your app), you specify how many dynos you'd like. For example, if I'd like 2 dynos, I'd type:
 
@@ -64,6 +64,27 @@ $> heroku ps:scale web=2
 ```
 
 Feel free to do this yourself, but be aware: adding more than 1 dyno incurs a charge! You won't break the bank, however. 
+
+While we're on the subject of web dynos, be aware that Heroku also offers background dynos called worker dynos. This is an advanced subject for another workshop; nonetheless, these dynos are priced similarly.
+
+
+```
+$> heroku config help
+```
+
+```
+$> heroku maintenance help
+```
+
+```
+$> heroku status
+```
+
+```
+$> heroku help certs
+```
+
+![plugins](/docs/imgs/plugsins.png) 
 
 
 ## Helpful Resources

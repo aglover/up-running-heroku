@@ -91,6 +91,8 @@ Next, from within the root of the whiskered-robot project, type:
 $> git remote add heroku <your remote git repo URL>
 ```
 
+##### Deploy it!
+
 Finally, type:
 
 ```
