@@ -25,6 +25,8 @@ In [Lab #2](/labs/lab_2/README.md), you'll deploy a sample app to Heroku.
 
 ### Lab #3
 
+In [Lab #3](/labs/lab_3/README.md), you'll get to know the `heroku` command a bit better and we'll check out a few Heroku add-ons. 
+
 
 ## Helpful Resources
   

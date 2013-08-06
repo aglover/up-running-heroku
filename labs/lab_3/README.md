@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-In Lab #3, you'll get to know the `heroku` command line client a bit better. Then we'll see a few nifty addons. 
+In Lab #3, you'll get to know the `heroku` command line client a bit better. Then we'll see a few nifty add-ons. 
 
-Addons are 3rd party libraries, utilities, and services that are made available to you via the Heroku platform.
+Add-ons are 3rd party libraries, utilities, and services that are made available to you via the Heroku platform.
 
 #### Logging 
 
