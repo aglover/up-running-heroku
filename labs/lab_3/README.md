@@ -47,21 +47,59 @@ Feel free to do this yourself, but be aware: adding more than 1 dyno incurs a ch
 While we're on the subject of web dynos, be aware that Heroku also offers background dynos called worker dynos. This is an advanced subject for another workshop; nonetheless, these dynos are priced similarly.
 
 
+#### App Configuration
+
+Heroku offers the ability for you to associate configuration values for your app -- at runtime, your app can obtain these values from standard environment mechanisms. 
+
+The `heroku config` command allows you to see a key with a value -- run this command for more information:
+
 ```
 $> heroku config help
 ```
+
+#### Maintenance
+
+Oftentimes, you need to take your app down (hopefully not too too much though). You can put your app into maintenance mode easily enough! Run this command for more information:
 
 ```
 $> heroku maintenance help
 ```
 
+#### How's Heroku doing?
+
+Curious as to Heroku's status? No problem, run:
+
 ```
 $> heroku status
 ```
+
+You can also surf to [status.heroku.com](https://status.heroku.com/).
+
+#### SSL
+
+Need to make your app secure? First, buy a certificate and then configure it with the `certs` command!
 
 ```
 $> heroku help certs
 ```
 
+## Add-ons 
+
+Heroku has a number of 3rd party services, utilities, and libraries you can include in your app. 
+
 ![plugins](../../docs/imgs/plugsins.png) 
+
+The ones you'll probably want to look into are:
+
+ * logging:
+   * [Papertrail](https://addons.heroku.com/papertrail)
+   * [Loggly](https://addons.heroku.com/loggly)
+ * Monitoring
+   * [New Relic](https://addons.heroku.com/newrelic)
+   * [Nodetime](https://addons.heroku.com/nodetime)
+ * Utilities
+   * [Deploy Hooks](https://addons.heroku.com/deployhooks)
+   * [Proximo](https://addons.heroku.com/proximo)
+
+Most plugins have a free option too! 
 
