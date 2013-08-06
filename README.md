@@ -12,6 +12,8 @@ In this hands-on workshop, I'll show you how to get started with Heroku and I'll
 
 This workshop is organized into 3 labs. We don't have a lot of time, so I strongly suggest you pair with someone. People with OSX, please volunteer to be pairing partners as it'll reduce friction because I'm also on OSX. That is, if you have Windows or Linux and someone near you is on a MacBook, then you should probably ask to pair with that person as my directions are tailored to OSX. 
 
+Keep in mind, at least one person will need access to email as creating an account in Heroku uses a two phased authorization for account creation. That is, you'll need to click on a link in an email Heroku sends to you.
+
 ### Lab #1
 
 In Lab #1, you'll be setting up your environment so you can work with Heroku. Environment setup is easily done; all you need to do is first [sign up for a free account](https://id.heroku.com/signup). Once you've done that, you'll need to download [Heroku's Toolbelt](https://toolbelt.heroku.com/).  
