@@ -16,11 +16,12 @@ Keep in mind, at least one person will need access to email as creating an accou
 
 ### Lab #1
 
+In [Lab #1](/labs/labs_1/README.md)
 
 
 ### Lab #2
 
-
+In [Lab #2](/labs/labs_2/README.md)
 
 ### Lab #3
 
