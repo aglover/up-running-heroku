@@ -119,6 +119,29 @@ web: coffee App.coffee
 
 Which tells node to run a web process with the `coffee` command. For now, don't worry much about what that `coffee` command is! 
 
+##### Configure a remote repository
+
+If you are still running the application via Foreman, please stop it by pressing CTRL-C. 
+
+When you created your app instance in Heroku, you should have seen something like so:
+
+```
+Creating intense-savannah-8665... done, stack is cedar
+http://intense-savannah-8665.herokuapp.com/ | git@heroku.com:intense-savannah-8665.git
+```
+
+See the last line second part that says `git@heroku.com:intense-savannah-8665.git` -- that's your remote Git repository. You will need to manually add this repository to your Git configuration to enable remote pushes. Follow the directions and it'll make sense. 
+
+First, copy that `git@...` URL. 
+
+Next, from within the root of the whiskered-robot project, type:
+
+```
+$> git remote add heroku <CTRL-V (i.e. paste in that git@ URL)>
+
+```
+
+
 ### Lab #3
 
 
