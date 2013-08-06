@@ -130,17 +130,33 @@ Creating intense-savannah-8665... done, stack is cedar
 http://intense-savannah-8665.herokuapp.com/ | git@heroku.com:intense-savannah-8665.git
 ```
 
-See the last line second part that says `git@heroku.com:intense-savannah-8665.git` -- that's your remote Git repository. You will need to manually add this repository to your Git configuration to enable remote pushes. Follow the directions and it'll make sense. 
+See the last line second part that says `git@heroku.com:intense-savannah-8665.git`? That's your _remote_ Git repository. You will need to manually add this repository to your _local_ Git configuration to enable remote pushes. Follow the directions and it'll make sense. 
 
-First, copy that `git@...` URL. 
+First, copy that `git@heroku.com:...` URL. 
 
 Next, from within the root of the whiskered-robot project, type:
 
 ```
-$> git remote add heroku <CTRL-V (i.e. paste in that git@ URL)>
-
+$> git remote add heroku <your remote git repo URL>
 ```
 
+Finally, type:
+
+```
+$> git push heroku master
+```
+
+Boom! You are done! Your app is live in the cloud, baby! Wanna see it? No problem, type:
+
+```
+$> heroku open
+```
+
+You should see a nifty app! 
+
+![your app is live!](/docs/imgs/liveapp.png)
+
+If you don't see the above app, raise your hand! 
 
 ### Lab #3
 
